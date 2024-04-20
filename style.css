@@ -59,7 +59,7 @@ body.active {
 }
 
 .banner {
-    background: url(/img/bkg-noize.webp), var(--bkg-color);
+    background: url(img/bkg-noize.webp), var(--bkg-color);
 }
 
 .banner__content {
@@ -1027,32 +1027,32 @@ h3 {
 }
 
 .div1 .step:first-child {
-    background: url(/img/steps/1.webp);
+    background: url(img/steps/1.webp);
 }
 
 .div1 .step:last-child {
-    background: url(/img/steps/2.webp);
+    background: url(img/steps/2.webp);
 }
 
 .div2 .step {
-    background: url(/img/steps/3.webp);
+    background: url(img/steps/3.webp);
     height: 100%;
 }
 
 .div3 .step:first-child {
-    background: url(/img/steps/4.webp);
+    background: url(img/steps/4.webp);
 }
 
 .div3 .step:last-child {
-    background: url(/img/steps/5.webp);
+    background: url(img/steps/5.webp);
 }
 
 .div4 .step {
-    background: url(/img/steps/6.webp);
+    background: url(img/steps/6.webp);
 }
 
 .div5 .step {
-    background: url(/img/steps/7.webp);
+    background: url(img/steps/7.webp);
 }
 
 
@@ -1697,7 +1697,7 @@ footer p {
     }
 
     .steps .grid>div {
-        background: url(/img/steps/slider.webp) 100% 100% no-repeat;
+        background: url(img/steps/slider.webp) 100% 100% no-repeat;
         background-size: cover;
         padding: 62px 24px 34px 20px;
     }
