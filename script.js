@@ -5,8 +5,10 @@ window.onload = function () {
     document.body.classList.remove("loaded_hiding");
   }, 500);
 
-  const scene = document.getElementById("scene");
-  const parallaxInstance = new Parallax(scene);
+  if (document.documentElement.clientWidth > 992) {
+    const scene = document.getElementById("scene");
+    const parallaxInstance = new Parallax(scene);
+  }
 
   if (document.documentElement.clientWidth < 992) {
     document
